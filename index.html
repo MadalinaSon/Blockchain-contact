@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="I made this page to learn">
+    <meta name="keywords" content="html5, learn code, page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain</title>
+
+    <link href="bundles/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="resources/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="wrapper">
+        <header class="clearfix">
+            <div class="logo-wrapper">
+                <img src="assets/logo.png" class="logo" alt="Logo">
+            </div>
+            <nav>
+                <a target="_blank" href="sign-up.html">Sign up</a>
+                <a target="_blank" href="about.html" >About</a>
+                <a target="_blank" href="services.html" title="Services">Services</a>
+                <a target="_blank" href="contact.html" title="Contact" >Contact</a>
+                <a target="_blank" href="community.html" title="Community">Community</a>
+            </nav>
+
+            <div class="title-wrapper">
+            <h1>Contact us</h1>
+            <p>Fill out the form below to learn more.</p>
+            </div>
+        </header>
+
+        <div class="input-wrapper">
+           
+            <div class="fname">
+            <i class="fas fa-user"></i>
+            <label for="first-name" aria-valuemin="5">First name</label>
+            <input type="text" placeholder="Enter your first name" name="first-name" minlength="5" required>
+            </div>
+
+            <div class="lname">
+            <i class="fas fa-user"></i>
+            <label for="last-name">Last name</label>
+            <input type="text" placeholder="Enter your last name" name="last-name" minlength="5" required>
+            </div>
+
+            <div class="email">
+            <i class="fas fa-envelope"></i>
+            <label for="email">Email</label>
+            <input class="input-validation" type="email" id="emailInput" placeholder="Enter your Email" name="email" required>
+            </div>
+
+            <hr>
+            
+            <label for="Message">Message</label>
+            <textarea id="subject" name="subject" minlength="50" maxLength="250"></textarea>
+            
+            <div class="button">
+            <button type="submit">Submit</button>
+            <small> or press </small><b>enter</b>
+            </div>
+        
+        </div>
+            
+        <footer>
+            <h5>Blockchain</h5>
+            <h6>technology</h6>
+        </footer>
+            
+    </div>
+</body>
+</html>
